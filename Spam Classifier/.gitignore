@@ -1,0 +1,61 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ------------------------------
+# Virtual environments
+# ------------------------------
+venv/
+env/
+.venv/
+.env/
+
+# ------------------------------
+# Jupyter Notebook checkpoints
+# ------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------
+# Data files (large or sensitive)
+# ------------------------------
+data/
+*.csv
+*.xlsx
+*.h5
+*.json
+
+# ------------------------------
+# ML model / checkpoints
+# ------------------------------
+*.pkl
+*.joblib
+*.hdf5
+*.ckpt
+*.pt
+
+# ------------------------------
+# Logs and reports
+# ------------------------------
+*.log
+*.out
+logs/
+reports/
+
+# ------------------------------
+# IDE / Editor settings
+# ------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------
+# OS files
+# ------------------------------
+.DS_Store
+Thumbs.db
