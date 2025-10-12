@@ -153,3 +153,12 @@ Perfect — here’s a **comprehensive list of 100 Machine Learning projects** g
 
 Would you like me to organize these into a **LaTeX section format** for direct inclusion in your resume (like: “Supervised Projects”, “Unsupervised Projects”, etc.)?
 I can make it resume-ready with clean LaTeX code and concise one-line descriptions.
+
+
+
+Q:if your model have 100 % accuracy but not detected fraud alert
+sol: Achieving 100% accuracy in a fraud detection model is not ideal, because in many cases, models optimized solely for accuracy can fail to detect rare events like fraud. In fraud detection, the key metric is not just overall accuracy, but precision, recall, and the F1 score, especially because fraud cases are often imbalanced.
+
+If the model has 100% accuracy but fails to detect fraud, it might indicate that the model is predicting 'no fraud' for most of the instances, as it could be biased toward the majority class (legitimate transactions). This is common when fraud cases are very rare. Instead of accuracy, I would focus on metrics like precision and recall for fraud detection, to ensure that we minimize false negatives (fraud that is missed) and false positives (legitimate transactions flagged as fraud).
+
+Moreover, fraud detection models typically incorporate techniques like SMOTE (Synthetic Minority Over-sampling Technique) or anomaly detection to address class imbalance and improve the model’s ability to detect fraud."
